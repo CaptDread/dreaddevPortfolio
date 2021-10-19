@@ -1,0 +1,75 @@
+@import "variables";
+
+// medium
+@mixin bp-M {
+	@media screen and (min-width: $bp-tablet) {
+		@content;
+	}
+}
+
+// large
+@mixin bp-L {
+	@media screen and (min-width: $bp-desktop) {
+		@content;
+	}
+}
+
+// xl
+@mixin bp-XL {
+	@media screen and (min-width: $bp-xl) {
+		@content;
+	}
+}
+
+// Special Mixins
+
+@mixin bp-GF {
+	@media screen and (min-width: 280px){ 
+		@content;
+	}
+}
+@mixin bp-Iph5-se {
+	@media screen and (min-width: 320px){ 
+		@content;
+	}
+}
+@mixin bp-MG4-GS5 {
+	@media screen and (min-width: 360px){ 
+		@content;
+	}
+}
+@mixin bp-Iph678 {
+	@media screen and (min-width: 375px) and (min-height:667px){ 
+		@content;
+	}
+}
+@mixin bp-IphX {
+	@media screen and (min-width: 375px) and (min-height:812px){ 
+		@content;
+	}
+}
+@mixin bp-P2 {
+	@media screen and (min-width: 411px) and (min-height:731px){ 
+		@content;
+	}
+}
+@mixin bp-P2Xl {
+	@media screen and (min-width: 411px) and (min-height:823px){ 
+		@content;
+	}
+}
+@mixin bp-Iph678P {
+	@media screen and (min-width: 414px){ 
+		@content;
+	}
+}
+@mixin bp-SDuo {
+	@media screen and (min-width: 530px){ 
+		@content;
+	}
+}
+@mixin bp-Ipad {
+	@media screen and (min-width: 768px){ 
+		@content;
+	}
+}
