@@ -1,6 +1,6 @@
 <?php
 
-session_start('test');
+session_start();
 
 $isValid = true;
 

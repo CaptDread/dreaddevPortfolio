@@ -14,7 +14,7 @@ $title = 'About Page'
 			<article class="about_main-article">
 				<h2 class="main-header">a sip</h2>
 				<h2 class="main-header">of dread tea</h2>
-				<p class="posTop">My name Is Domingo "Captain Dread" Dunlap, and I am a creator, both physicaly and virually. I've always been a tinkerer, but before I even had an idea of what I wanted to be my grandfather did. I still remember the day he sat me down infront of his computer and explained the potential he saw in me.</p>
+				<p class="posTop">My name Is Domingo "Captain Dread" Dunlap, and I am a creator, both physically and virtually. I've always been a tinkerer, but before I even had an idea of what I wanted to be my grandfather did. I still remember the day he sat me down infront of his computer and explained the potential he saw in me.</p>
 				<figure class="dread_dev-img">
 					<img src="dist/img/herodevimg.png" alt="The Dread Dev Himself">
 				</figure>
